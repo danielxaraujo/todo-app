@@ -1,3 +1,4 @@
+/*eslint no-console: ["error", { allow: ["log", "warn", "error"] }] */
 import express from 'express';
 import bodyParser from 'body-parser';
 import allowCors from './cors';
@@ -10,7 +11,7 @@ app.use(bodyParser.json())
 app.use(allowCors)
 
 app.listen(port, () => {
-    console.log(`BACKEND is running on port ${port}.`)
+	console.error(`BACKEND is running on port ${port}.`)
 })
 
 export default app

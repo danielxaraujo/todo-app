@@ -1,5 +1,5 @@
-import express from "express";
-import TodoService from "../api/todo/todoService";
+import express from 'express';
+import TodoService from '../api/todo/todoService';
 
 const configRoutes = (server) => {
 

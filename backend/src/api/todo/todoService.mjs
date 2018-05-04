@@ -1,4 +1,4 @@
-import Todo from "./todo";
+import Todo from './todo';
 
 const TodoService = Todo
 TodoService.methods(['get', 'post', 'put', 'delete'])
